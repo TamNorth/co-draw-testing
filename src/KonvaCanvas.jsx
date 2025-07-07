@@ -1,4 +1,3 @@
-import Konva from "konva";
 import React from "react";
 import { Stage, Layer, Rect, Circle, Line, Text } from "react-konva";
 //import StageCopy from "./StageCopy";
