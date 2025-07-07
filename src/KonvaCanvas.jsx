@@ -37,20 +37,8 @@ const KonvaCanvas = () => {
 
   const stageRef = React.useRef(null);
 
-  // const handleSerialize = () => {
-  //   // In a real app, prefer saving app state, not stage JSON
-
-  //   const json = JSON.stringify({ shapes: [lines] });
-  //   console.log("Serialized state:", json);
-  //   alert("State serialized! Check the console for the JSON string.");
-  // };
-
-  // const parsedData = JSON.parse(konvaData);
-  // console.log(parsedData);
-
   return (
     <div>
-      {/* <button onClick={handleSerialize}>Serialise</button> */}
       <button>Serialise</button>
       <select
         value={tool}
